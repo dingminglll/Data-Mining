@@ -16,7 +16,7 @@ from sklearn.ensemble import RandomForestClassifier
 from sklearn.metrics import accuracy_score
 from sklearn.metrics import confusion_matrix
 
-dataset = pd.read_csv("dataset_mood_smartphone.csv",na_values='?')
+dataset = pd.read_csv("Assignment1/dataset/dataset_mood_smartphone.csv",na_values='?')
 dataset.dropna()
 print(dataset.dtypes)
 
